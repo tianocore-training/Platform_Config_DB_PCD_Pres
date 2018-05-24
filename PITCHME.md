@@ -47,7 +47,7 @@ Note:
 -->
 <br>
 <ul style="list-style-type:none">
- <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Define Platform Configuration Database (PCD) and explain the syntax</span></li>
+ <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Define Platform Configuration Database (PCD) and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;explain the syntax</span> </li>
  <li>@fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Differentiate types of PCDs</span></li>
  <li>@fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Explain how changing a PCD value affects output</span> </li>
  <li>@fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Evaluate the results of a PCD value modification</span></li>
@@ -64,18 +64,18 @@ Note:
 <p align="right"><span class="gold" >EDK II PCD’s Purpose and Goals</span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;Documentaton :  <a href="https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Universal/PCD/Dxe/Pcd.inf"> MdeModulePkg/Universal/PCD/Dxe/Pcd.inf  </a> </span>
 <div class="left1">
-<span style="font-size:0.9em" ><font color="cyan">Purpose</font></span>
+<span style="font-size:01.0em" ><font color="cyan">Purpose</font></span>
 <ul>
-  <li><span style="font-size:0.7em" >Establishes platform common definitions </span>  </li>
-  <li><span style="font-size:0.7em" >Build-time/Run-time aspects </span>  </li>
-  <li><span style="font-size:0.7em" >Binary Editing Capabilities </span>  </li>
+  <li><span style="font-size:0.8em" >Establishes platform common definitions </span>  </li>
+  <li><span style="font-size:0.8em" >Build-time/Run-time aspects </span>  </li>
+  <li><span style="font-size:0.8em" >Binary Editing Capabilities </span>  </li>
 </ul>
 </div>
 <div class="right1">
-<span style="font-size:0.9em" ><font color="cyan">Goals</font></span>
+<span style="font-size:01.0em" ><font color="cyan">Goals</font></span>
 <ul>
-  <li><span style="font-size:0.7em" >Simplify porting </span>  </li>
-  <li><span style="font-size:0.7em" >Easy to associate with a module or platform </span>  </li>
+  <li><span style="font-size:0.8em" >Simplify porting </span>  </li>
+  <li><span style="font-size:0.8em" >Easy to associate with a module or platform </span>  </li>
 </ul>
 </div>
 
@@ -283,13 +283,14 @@ Note:
 <p align="center"><span class="gold" >UEFI Platform Initialization (PI) 1.x Spec & PCDs</span></p>
 <span style="font-size:01.0em"><font color="yellow"><b>PEI</b></font></span>
 <ul>
- <li><span style="font-size:0.7em">PCD PEIM produces PCD database</span> </li>
- <li><span style="font-size:0.7em">Two PCD PPIs: `PCD_PPI`  and  `EFI_PEI_PCD_PPI`</span></li>
+ <li><span style="font-size:0.8em">PCD PEIM produces PCD database</span> </li>
+ <li><span style="font-size:0.8em">Two PCD PPIs: `PCD_PPI`  and  `EFI_PEI_PCD_PPI`</span></li>
 </ul>
+<br>
 <span style="font-size:01.0em"><font color="yellow"><b>DXE</b></font></span>
 <ul>
- <li><span style="font-size:0.7em">DXE Driver Manages PCDs</span></li>
- <li><span style="font-size:0.7em">Two PCD Protocols:   `PCD_PROTOCOL`   and `EFI_PCD_PROTOCOL`</span></li>
+ <li><span style="font-size:0.8em">DXE Driver Manages PCDs</span></li>
+ <li><span style="font-size:0.8em">Two PCD Protocols:   `PCD_PROTOCOL`   and `EFI_PCD_PROTOCOL`</span></li>
 </ul>
 
 Note:
@@ -321,10 +322,10 @@ The PCD DXE driver will produce both protocols at the same time
 <br>
 <div class="left1">
 <ul>
- <li><span style="font-size:0.8em"><font color="yellow">Provides interface for PCDs</font></span> </li>
- <li><span style="font-size:0.8em"><font color="gray">PCD PPI - PEI</font></span></li>
- <li><span style="font-size:0.8em"><font color="yellow">PCD Protocol – DXE</font></span></li>
- <li><span style="font-size:0.8em"><font color="gray">Allows access to data</font></span></li>
+ <li><span style="font-size:0.9em"><font color="yellow">Provides interface for PCDs</font></span> </li>
+ <li><span style="font-size:0.9em"><font color="gray">PCD PPI - PEI</font></span></li>
+ <li><span style="font-size:0.9em"><font color="yellow">PCD Protocol – DXE</font></span></li>
+ <li><span style="font-size:0.9em"><font color="gray">Allows access to data</font></span></li>
 </ul>
 </div>
 <div class="right1">
@@ -728,22 +729,23 @@ Note:
 ---?image=/assets/images/slides/Slide45.JPG
 @title[Fixed PCD AutoGen files]
 <p align="right"><span class="gold" >Fixed PCD AutoGen files</span></p>
-<span style="font-size:0.8em">Example: </span>@fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Universal/Variable/RuntimeDxe/VariableSmmRuntimeDxe.inf "> MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe</a> </span>
+<span style="font-size:0.8em">Example: </span>@fa[github gp-bullet-gold]<span style="font-size:0.5em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Universal/Variable/RuntimeDxe/VariableSmmRuntimeDxe.inf "> MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe</a> </span>
 
 Note:
 
 ---
 @title[What about a Dynamic PCD]
 <br>
-<p align="right"><span class="gold" >What about a Dynamic PCD?</span></p>
+
+<p align="left"><span class="gold" >What about a Dynamic PCD?</span></p>
 <br>
 <ul style="list-style-type:disc">
-- <span style="font-size:0.8em">Only can be <b>Set</b> during Boot time. </span>
-- <span style="font-size:0.8em">PCD can be set with the library Set:  `LibPcdSet… ` </span>
-- <span style="font-size:0.8em">PCD can be retrieved with the library Get: `LibPcdGet…` </span>
+ <li><span style="font-size:0.8em">Only can be <b>Set</b> during Boot time. </span> </li>
+ <li><span style="font-size:0.8em">PCD can be set with the library Set:  `LibPcdSet… ` </span></li>
+ <li><span style="font-size:0.8em">PCD can be retrieved with the library Get: `LibPcdGet…` </span></li>
 </ul>
 <br>
-<span style="font-size:0.7em">Example:  Use the variable  <font color="yellow">`PcdPlatformBootTimeOut`</font> defined for the platform time out, modified for a value of <font color="cyan">`03` </font> seconds</span>
+<span style="font-size:0.7em">Example:  Use the variable  <font color="yellow">`PcdPlatformBootTimeOut`</font> defined for the platform time out, modify for a value of <font color="cyan">`03` </font> seconds</span>
 
 
 Note:
@@ -946,7 +948,7 @@ Note:
 ### <p align="center"><span class="gold"   >Summary </span></p><br>
 <br>
 <ul style="list-style-type:none">
- <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Define Platform Configuration Database (PCD) and explain the syntax</span> </li>
+ <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Define Platform Configuration Database (PCD) and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;explain the syntax</span> </li>
  <li>@fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Differentiate types of PCDs</span></li>
  <li>@fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Explain how changing a PCD value affects output</span> </li>
  <li>@fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Evaluate the results of a PCD value modification</span></li>
