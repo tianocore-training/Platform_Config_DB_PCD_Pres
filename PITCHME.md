@@ -739,8 +739,7 @@ Note:
 ---
 @title[What about a Dynamic PCD]
 <br>
- 
-<p align="left"><span style="font-size:01.2em ><font color="#e49436">What about a Dynamic PCD?</font></span></p>
+<p align="left"><span style="font-size:01.2em"><font color="#e49436">What about a Dynamic PCD?</font></span></p>
 <br>
 <ul style="list-style-type:disc">
  <li><span style="font-size:0.8em">Only can be <b>Set</b> during Boot time. </span> </li>
