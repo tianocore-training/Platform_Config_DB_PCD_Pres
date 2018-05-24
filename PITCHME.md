@@ -47,7 +47,7 @@ Note:
 -->
 <br>
 <ul style="list-style-type:none">
- <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Define Platform Configuration Database (PCD) and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;explain the syntax</span> </li>
+ <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Define Platform Configuration Database (PCD) and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;explain the syntax</span> </li>
  <li>@fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Differentiate types of PCDs</span></li>
  <li>@fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Explain how changing a PCD value affects output</span> </li>
  <li>@fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Evaluate the results of a PCD value modification</span></li>
@@ -61,8 +61,10 @@ Note:
 
 ---
 @title[EDK II PCD’s Purpose and Goals]
+<br>
 <p align="right"><span class="gold" >EDK II PCD’s Purpose and Goals</span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;Documentaton :  <a href="https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Universal/PCD/Dxe/Pcd.inf"> MdeModulePkg/Universal/PCD/Dxe/Pcd.inf  </a> </span>
+<br>
 <div class="left1">
 <span style="font-size:01.0em" ><font color="cyan">Purpose</font></span>
 <ul>
@@ -93,9 +95,10 @@ Note:
 
 +++
 @title[EDK II PCD’s Purpose and Goals]
+<br>
 <p align="right"><span class="gold" >EDK II PCD’s Purpose and Goals</span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;Documentaton :  <a href="https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Universal/PCD/Dxe/Pcd.inf"> MdeModulePkg/Universal/PCD/Dxe/Pcd.inf  </a> </span>
-
+<br>
 ```c
 /**
  ////////////////////////////////////////////////////////////////////////////////
@@ -323,9 +326,9 @@ The PCD DXE driver will produce both protocols at the same time
 <div class="left1">
 <ul>
  <li><span style="font-size:0.9em"><font color="yellow">Provides interface for PCDs</font></span> </li>
- <li><span style="font-size:0.9em"><font color="gray">PCD PPI - PEI</font></span></li>
+ <li><span style="font-size:0.9em"><font color="white">PCD PPI - PEI</font></span></li>
  <li><span style="font-size:0.9em"><font color="yellow">PCD Protocol – DXE</font></span></li>
- <li><span style="font-size:0.9em"><font color="gray">Allows access to data</font></span></li>
+ <li><span style="font-size:0.9em"><font color="white">Allows access to data</font></span></li>
 </ul>
 </div>
 <div class="right1">
@@ -745,6 +748,7 @@ Note:
  <li><span style="font-size:0.8em">PCD can be retrieved with the library Get: `LibPcdGet…` </span></li>
 </ul>
 <br>
+<br>
 <span style="font-size:0.7em">Example:  Use the variable  <font color="yellow">`PcdPlatformBootTimeOut`</font> defined for the platform time out, modify for a value of <font color="cyan">`03` </font> seconds</span>
 
 
@@ -948,7 +952,7 @@ Note:
 ### <p align="center"><span class="gold"   >Summary </span></p><br>
 <br>
 <ul style="list-style-type:none">
- <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Define Platform Configuration Database (PCD) and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;explain the syntax</span> </li>
+ <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Define Platform Configuration Database (PCD) and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;explain the syntax</span> </li>
  <li>@fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Differentiate types of PCDs</span></li>
  <li>@fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Explain how changing a PCD value affects output</span> </li>
  <li>@fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Evaluate the results of a PCD value modification</span></li>
