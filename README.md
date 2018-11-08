@@ -32,5 +32,5 @@
 # Platform_Config_DB_PCD_pres
 EDK II Platform Configuration Database (PCD) 
 
-To see the Slides goto https://gitpitch.com/Laurie0131/Platform_Config_DB_PCD_pres/master#/
+To see the Slides goto https://gitpitch.com/tianocore-training/Platform_Config_DB_PCD_pres/master#/
 
